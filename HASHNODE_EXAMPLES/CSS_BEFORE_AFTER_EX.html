@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::before & ::after</title>
+    <style>
+        body{
+            background-color: #98C1D9;
+        }
+        .before-class{
+            border: 2px solid #533A7B;
+            color:black
+        }
+        .before-class::before{
+            content: url(https://images.unsplash.com/photo-1667844670191-7404253623af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80);
+            background-color: white;
+            color:red;
+            display:block
+        }
+        .after-class{
+            border: 2px solid #4B244A;
+            color:black
+        }
+        .after-class::after{
+            content: ' Added After';
+            color: red;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Before and After Pseudo Elements</h1>
+
+    <section>
+        <h3 class="before-class">::BEFORE PSEUDO ELEMENT</h3>
+        <p>This is about <span class="before-class">before</span> pseudo element.</p>
+    </section>
+
+    <br>
+
+    <section>
+        <h3 class="after-class">::AFTER</h3>
+        <p>This is about <span class="after-class">after</span> pseduo element.</p>
+    </section>
+</body>
+
+</html>
