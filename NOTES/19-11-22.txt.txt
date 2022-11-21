@@ -1,0 +1,11 @@
+positions: static(default), fixed, sticky, relative and absolute
+
+resource: css-tricks.com
+
+relative: relative to the position it was before.
+Example: If the original pisition has 50 px height and we add top of 10px it will have the 10px height relative to 50px that is final height will be 60px from top
+
+positions: static(default), fixed, sticky, relative and absolute
+
+resource: css-tricks.com
+
