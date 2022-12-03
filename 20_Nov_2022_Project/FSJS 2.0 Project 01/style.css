@@ -1,0 +1,74 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.grow-list{
+    flex-grow: 1
+}
+
+.grow-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.grow-list ul li{
+    list-style: none;
+    color: #C4C4C4;
+    margin-left:5%
+}
+
+.grow-list ul li:hover{
+    color: #222222;
+}
+
+.nav-button {
+    color: white;
+    padding:20px 48px;
+    background-color: #5955B3;
+    border-radius: 10px;
+    border:none;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+
+/* Section Banner */
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+
+.heading-text{
+    color: #3C2F60;
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+
+.banner-container span{
+    color:#5955B3;
+}
+
+.description{
+    color:#BCBCBC;
+    margin-bottom: 5%;
+    
+}

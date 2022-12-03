@@ -1,0 +1,94 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    max-width: 1440px;
+    margin:auto
+}
+
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #000000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 200;
+}
+
+.line{
+    border-left: 3px solid white;
+    height:60px;
+    margin-left: 3%;
+}
+
+.grow-list{
+    flex-grow: 0.8;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list-item{
+    color: white;
+    list-style: none;
+    margin-left: 5%;
+}
+
+button{
+    color:white;
+    background-color: #BA0CC5;
+    border:none;
+}
+
+.button-small{
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+/* Hero Section */
+
+.hero{
+    background-image: url('./assets/bg.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    width: 45%;
+    margin-bottom: 1%;
+}
+
+.hero-description{
+    color: white;
+    margin-bottom: 3%;
+
+}
+
+.button-large{
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 15%;
+}
